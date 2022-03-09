@@ -1,0 +1,54 @@
+<html>
+<head>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+  </head>
+  <body>
+          <!-- Start container div -->
+  <div class="container">
+  <div id="navbar">
+  <div id="menu">
+  <a class="profile-link" href="#" target="_blank">Blog</a>
+  <a class="profile-link" href="#" target="_blank">About</a>
+  </div>
+  <div id="header">
+  <h1>Riyaz Ahmed</h1>
+  </div>
+</div>
+  <div id="welcome-section">
+  <div class="left-content">
+  <img src="images\Riyaz.png">
+  </div>
+  <div class="right-content">
+    <div id="card">
+    <blockquote><strong>Riyaz Ahmed</strong>is native of Kashmir, India who have variety of skills across diverse sectors  <br> MIS reports, Email Marketing , Social media Management ,<br>  Web designing, and Content Writing</blockquote>
+    <button id="welcome-btn">My Projects</button>
+  </div>
+  </div>
+   <p>
+   </p>
+
+ </div>
+          <div id="projects">
+                 <h1 class="project-tile">My Projects</h1>
+                <table id="project-list">
+                 <tr>
+                <th>Sno</th>
+                <th> Project Title</th>
+                </tr>
+                 <tr>
+                 <td>1</td>
+                 <td><a href="https://r-ahmed2022.github.io/MartinProject/" target="_blank">Survey Project</a>
+                </td>
+                </tr>
+                 </table>
+
+          </div>
+</div>
+
+  <!-- End container div -->
+  </body>
+</html>

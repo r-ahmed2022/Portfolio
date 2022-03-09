@@ -1,0 +1,293 @@
+html, body
+{
+  margin:0px;
+  padding:0px;
+  font-family: Arial , Helvetica, Inherit;
+  color:white;
+  width:100%;
+  height:100%;
+  background-color:#181818;
+}
+
+.container
+{
+  margin:0px;
+  padding:0px;
+  display:grid;
+  grid-template-columns: repeat(12 , 1fr);
+  grid-template-rows: 40px auto;
+  grid-gap:1px;
+  background-color:#131313;
+
+}
+
+#navbar
+  {
+  grid-column: 1 / -1 ;
+  top:0px;
+  display:grid;
+  grid-template: repeat(1, 35px) / repeat(12, 1fr);
+  align-contents: center;
+  overflow:hidden;
+  width:100%;
+  height:40px;
+  position:sticky;
+  margin:2px 10px 0px 5px;
+  background-color:#ffffff;
+  padding-top:3px;
+    }
+
+ #menu
+  {
+  grid-column: 1 / 4 ;
+  padding-left:30px;
+
+  }
+
+  #header
+{
+  grid-column: 4 / -1 ;
+  display:flex;
+  padding-left:25%;
+  align-items: center;
+
+}
+.profile-link
+{
+  color:white;
+  display:block;
+  width:100px;
+  float:left;
+  padding-top: 1px;
+  background-color:#0CD0C3;
+  text-align:center;
+  height:40px;
+  border-radius: 10px 10px 2px 2px;
+  box-shadow: 2px 2px 2px;
+  margin-right:3px;
+
+  }
+
+#header > h1
+{
+  color:black;
+
+}
+blockquote
+{
+  font-family:"Sofia", sans-serif;
+
+}
+#welcome-section
+{
+  grid-column: 1 / -1;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-right:0px;
+  padding:10px 10px 30px 0px;
+  width:100vw;
+  height:100vh;
+  opacity:0.8;
+  background-color:#131313;
+  }
+#welcome-section > img
+{
+  margin:0px;
+  padding:0px;
+
+}
+
+#card
+{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin-left:0px;
+  padding:0px;
+  align-items:center;
+  text-align:center;
+}
+
+#projects
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:start;
+  align-items:start;
+  grid-column: 1 / -1;
+  margin-left:0px;
+  padding-top:50px;
+  padding-left:20px;
+  width:100vw;
+  height:100vh;
+  background-image:url("../images/mywork.png");
+  background-size:cover;
+}
+
+
+#works
+{
+  margin:0px;
+  padding-left:20px;
+}
+
+* > a
+{
+  color:white;
+}
+#work-1{
+       position:relative;
+
+       left:-100px;
+       width:200px;
+       height:40px;
+       transition: 0.3s;
+       padding-top:10px;
+       text-align:center;
+       border-radius:10px 3px 10px 10px;
+       background-color:#0EAAA0;
+
+      }
+      #work-2{
+             position:relative;
+             top:60px;
+             left:-100px;
+             width:200px;
+             height:40px;
+             padding-top:10px;
+             transition: 0.3s;
+             text-align:center;
+             border-radius:10px 3px 10px 10px;
+             background-color:#0EAAA0;
+
+            }
+
+      #work-3{
+                   position:relative;
+                   top:110px;
+                   left:-100px;
+                   width:200px;
+                   height:40px;
+                   transition: 0.3s;
+                   ext-align:center;
+                   padding-top:10px;
+                   border-radius:10px 3px 10px 10px;
+                   background-color:#0EAAA0;
+
+                  }
+#work-1:hover
+{
+  left:0px;
+}
+#work-2:hover
+{
+  left:0px;
+}
+#work-3:hover
+{
+  left:0px;
+}
+#canvas
+{
+  padding:50px 50px 80px 100px;
+  border:2px solid #ffffff;
+}
+
+.home
+{
+  width:80px;
+  height:50px;
+  background-color:#DFB03E;
+   margin:2px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight:bold;
+
+}
+#navbar:hover {
+       background: gray;
+         }
+
+      @media (max-width: 61.25em) {
+        html {
+          font-size: 58%;
+        }
+      }
+
+
+
+
+.project-title
+
+{
+  color:#0EAAA0;
+}
+
+#welcome-btn
+{
+
+  width:150px;
+  height:50px;
+  border-radius:30px;
+  background-color:#0CD0C3;
+  box-shadow: 2px 3px white;
+}
+
+  @media screen and (max-width: 600px)
+  {
+      .container
+         {
+          width:auto;
+          height:auto;
+          display:flex;
+          flex-direction:column;
+          justify-content: center;
+          font-size:25px;
+
+         }
+
+         #welcome-section > blockquote {
+           width:25%;
+           height:25%;
+           display:flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           font-size: 25px;
+         }
+
+         #projects {
+           width:100%;
+           height:vh;
+           display:flex;
+           flex-direction: column;
+           justify-content:center;
+           align-items:center;
+           font-size: 25px;
+         }
+         #welcome-section > img{
+
+           width:100px;
+           height:100px;
+         }
+
+       #navbar > #menu
+       {
+
+       }
+         #menu  > a
+         {
+
+          width:100px;
+          height:20px;
+          float:none;
+          margin-bottom:2px;
+
+         }
+         #header > h1
+         {
+           font-size:20px;
+         }
+
+  }
