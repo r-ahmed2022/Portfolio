@@ -46,3 +46,13 @@ function openNav() {
 function closeNav() {
   document.getElementById("about").style.width = "0%";
 }
+
+function closeformNav()
+{
+  document.getElementById("form-div").style.width = "0%";
+}
+
+function openformNav()
+{
+  document.getElementById("form-div").style.width = "100%";
+}

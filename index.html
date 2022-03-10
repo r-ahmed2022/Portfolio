@@ -2,7 +2,7 @@
 <head>
   <link href="./css/style.css" rel="stylesheet">
   <link href="./css/style-menu.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <link href="./css/form.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=El+Messiri&family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
   <div class="container">
   <div id="navbar">
   <div id="menu">
-  <a class="profile-link" href="#" target="_blank">Blog</a>
+  <a class="profile-link" target="_blank" onclick="openformNav()">Contact</a>
   <a class="profile-link" target="_blank" onclick="openNav()">About</a>
   </div>
   <div id="header">
@@ -53,15 +53,36 @@
              <div id="about" class="overlay">
                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                <div class="overlay-content">
-                <blockquote id="info">
-                    My name is <h2>Riyaz Ahmed. </h2>
-   I'm a professional having expertize in Exceutive assistant tasks, Lead Management, Social Media manager,
-   Email Marketing ,  Content Writing <br>and Web Designing based in Kashmir(India). <br>
-   I have worked with several firms in  preparing MIS reports, SEO ranking, boosting their social media presence,
-   and developing their overall content strategy.
-                </blockquote>
+                <h2>Who I Am and What I Do </h2><hr style="width:300px;">
+                 <h4>Professional based in Kashmir(India) having expertize </h4>
+                <ul id="about">
+                <li>Executive Assistant</li>
+                <li>Lead Management </li>
+                <li>Social Media Management </li>
+                <li> Email Marketing </li>
+                <li> Content Writing </li>
+                <li> Web Designing</li>
+              </ul>
+                </div>
               </div>
-              </div>
+              <!--start contact form -->
+              <div id="form-div" class="form-overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeformNav()">&times;</a>
+                <div class="form-overlay-content">
+                <form id="myform">
+                 <h1>Get in Touch</h1>&nbsp;&nbsp;&nbsp;
+                 Email: r-ahmed@20four7va.net <BR>
+                 Mobile:+91-9103050300
+                 <br> <br> <br> <br>
+                 Follow me on social media
+                 <div id="social-media">
+                 <a href="#"><img src="images/facebook.png" width="30px" height="30px" alt="Facebook"></a>
+                 <a href="#"><img src="images/linkedin.png" width="30px" height="30px" alt="Linkedin"></a>
+                 <a href="#"><img src="images/twitter.png" width="30px" height="30px" alt="Twitter"></a>
+                 </div>
+                 </form>
+               </div>
+               </div>
 
 </div>
 
