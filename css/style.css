@@ -40,8 +40,9 @@ html, body
  #menu
   {
   grid-column: 1 / 4 ;
-  padding-left:30px;
-
+  padding-left:20px;
+  height:auto;
+  margin:0px;
   }
 
   #header
@@ -58,10 +59,10 @@ html, body
   display:block;
   width:100px;
   float:left;
-  padding-top: 1px;
+  padding-top: 0px;
   background-color:#0CD0C3;
   text-align:center;
-  height:40px;
+  height:auto;
   border-radius: 10px 10px 2px 2px;
   box-shadow: 2px 2px 2px;
   margin-right:3px;
@@ -246,6 +247,11 @@ blockquote
           font-size:25px;
 
          }
+         #navbar{
+           width:auto;
+           height:auto;
+         }
+
          #welcome-section {
            width:auto;
            height:auto;
@@ -260,13 +266,17 @@ blockquote
 
          #projects {
            width:auto;
-           height:auto;
+           height:100vh;
            display:flex;
            flex-direction: column;
            justify-content:center;
            align-items:center;
            font-size: 20px;
+           background-image:url("../images/mywork.png");
+           background-size:auto;
          }
+
+
          #welcome-section > img{
 
            width:auto;
@@ -281,13 +291,17 @@ blockquote
          #menu  > a
          {
 
-          width:auto;
+          width:70px;
           height:auto;
-          display:inline-block;
-          margin:1px 1px 3px 2px;
-          padding:2px;
-          font-size:20px;
+          display:block;
+          margin:1px 1px 0px 2px;
+          padding:1px;
+          font-size:15px;
 
+         }
+         #header{
+           width:auto;
+           height:auto;
          }
          #header > h1
          {
@@ -299,7 +313,7 @@ blockquote
          }
          #works
          {
-           font-size:Inherit;
+           font-size:inherit;
          }
 
   }
