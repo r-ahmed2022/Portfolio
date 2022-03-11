@@ -137,19 +137,18 @@ blockquote
 {
   color:white;
 }
-#work-1{
-       position:relative;
+      #work-1{
+                 position:relative;
+                 left:-100px;
+                 width:200px;
+                 height:40px;
+                 transition: 0.3s;
+                 padding-top:10px;
+                 text-align:center;
+                 border-radius:10px 3px 10px 10px;
+                 background-color:#0EAAA0;
 
-       left:-100px;
-       width:200px;
-       height:40px;
-       transition: 0.3s;
-       padding-top:10px;
-       text-align:center;
-       border-radius:10px 3px 10px 10px;
-       background-color:#0EAAA0;
-
-      }
+            }
       #work-2{
              position:relative;
              top:60px;
@@ -170,6 +169,7 @@ blockquote
                    left:-100px;
                    width:200px;
                    height:40px;
+                   text-align:center;
                    transition: 0.3s;
                    ext-align:center;
                    padding-top:10px;
@@ -271,7 +271,7 @@ blockquote
            flex-direction: column;
            justify-content:center;
            align-items:center;
-           font-size: 20px;
+           font-size:20px;
            background-image:url("../images/mywork.png");
            background-size:auto;
          }
@@ -309,7 +309,7 @@ blockquote
          }
          #work-1 , #work-2 , #work-3
          {
-           font-size:20px;
+           font-size:15px;
          }
          #works
          {
