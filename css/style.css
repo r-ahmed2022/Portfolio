@@ -2,7 +2,7 @@ html, body
 {
   margin:0px;
   padding:0px;
-  font-family: Arial, , Inherit;
+  font-family: Arial,  Inherit;
   color:white;
   width:100%;
   height:100%;
@@ -172,21 +172,21 @@ blockquote
                    height:40px;
                    text-align:center;
                    transition: 0.3s;
-                   ext-align:center;
+                   text-align:center;
                    padding-top:10px;
                    border-radius:10px 3px 10px 10px;
                    background-color:#0EAAA0;
 
                   }
-                  #work-4{
+       #work-4{
                     position:relative;
-                    top:120px;
+                    top:160px;
                     left:-100px;
                     width:200px;
                     height:40px;
                     text-align:center;
                     transition: 0.3s;
-                    ext-align:center;
+                    text-align:center;
                     padding-top:10px;
                     border-radius:10px 3px 10px 10px;
                     background-color:#0EAAA0;
