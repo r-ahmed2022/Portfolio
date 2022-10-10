@@ -97,6 +97,7 @@ blockquote
 {
   margin:0px;
   padding:0px;
+  height: 100vh;
 
 }
 
@@ -180,7 +181,7 @@ blockquote
                   }
        #work-4{
                     position:relative;
-                    top:160px;
+                    top:170px;
                     left:-100px;
                     width:200px;
                     height:40px;
@@ -326,7 +327,7 @@ blockquote
          {
            font-size:20px;
          }
-         #work-1 , #work-2 , #work-3
+         #work-1 , #work-2 , #work-3, #work-4
          {
            font-size:15px;
          }
